@@ -18,9 +18,8 @@ func (r rect) area() float64 {
 
 func main() {
 	r := rect{
-		width:  2,
-		height: 3,
+		width:  2.2,
+		height: 3.4,
 	}
-	var g geometry
-	fmt.Println(g.area())
+	fmt.Println(r.area())
 }
