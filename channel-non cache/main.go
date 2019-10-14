@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-	//channel的正常使用
+	//没有缓存的channel的正常使用
 	fmt.Println("Main Start")
 	ch1 := make(chan int)
 	go func() {
