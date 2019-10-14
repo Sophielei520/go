@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
+
 	//获取当前系统cpu的数量，NumCPU返回本地机器的逻辑CPU个数。
 	cpuNum := runtime.NumCPU()
 	fmt.Println("cpuNum=", cpuNum) //4
