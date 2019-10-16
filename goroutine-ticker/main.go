@@ -5,6 +5,8 @@ import (
 	"time"
 )
 
+//写一个计时器程序，将 running() 函数并发执行，每隔5秒打印一次计数器，
+//而 main 的 goroutine 则等待用户输入，两个行为可以同时进行.
 func runnning() {
 	var times int
 	//构建一个无限循环
